@@ -1,0 +1,11 @@
+name: CI Pipeline Develop
+
+on:
+  push:
+    branches: [ develop ]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "I am on the develop branch"
