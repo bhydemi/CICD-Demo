@@ -18,6 +18,6 @@ jobs:
       - name: Show Python Version
         run: |
           python --version
-          echo "OS: ${{ matrix.os}}
+          echo "OS: ${{ matrix.os}}"
         
     
