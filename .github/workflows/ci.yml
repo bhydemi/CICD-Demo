@@ -4,7 +4,7 @@ on: [push, pull_request]  # Run this workflow on push and pull requests
 
 jobs:
   test:
-    runs-on: ${{ matrix.python-version}}
+    runs-on: ${{ matrix.os}}
     strategy:
       matrix:
         python-version: ["3.10", "3.11"]
